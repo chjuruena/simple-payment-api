@@ -1,0 +1,42 @@
+{
+  "name": "paymentapi",
+  "version": "1.0.0",
+  "description": "Stripe Payment API Integration with Express 5",
+  "main": "server/server.js",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js --trace-warnings",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "logs": "tail -f server/logs/*.log"
+  },
+  "dependencies": {
+    "@stripe/stripe-js": "^7.3.0",
+    "axios": "^1.9.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "stripe": "^18.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "eslint": "^8.56.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1"
+  },
+  "keywords": [
+    "stripe",
+    "payment",
+    "api",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,27 @@
+{"timestamp":"2025-05-12T13:31:30.958Z","method":"GET","path":"/"}
+{"timestamp":"2025-05-12T23:50:16.145Z","method":"GET","path":"/styles.css"}
+{"timestamp":"2025-05-12T23:50:16.279Z","method":"GET","path":"/favicon.ico"}
+{"timestamp":"2025-05-12T23:50:19.861Z","method":"GET","path":"/styles.css"}
+{"timestamp":"2025-05-12T23:50:19.888Z","method":"GET","path":"/favicon.ico"}
+{"timestamp":"2025-05-12T23:50:23.422Z","method":"GET","path":"/styles.css"}
+{"timestamp":"2025-05-12T23:50:32.287Z","method":"GET","path":"/styles.css"}
+{"timestamp":"2025-05-12T23:50:32.355Z","method":"GET","path":"/favicon.ico"}
+{"timestamp":"2025-05-13T00:05:14.645Z","method":"GET","path":"/styles.css"}
+{"timestamp":"2025-05-13T00:05:14.743Z","method":"GET","path":"/favicon.ico"}
+{"timestamp":"2025-05-13T00:05:24.520Z","method":"GET","path":"/styles.css"}
+{"timestamp":"2025-05-13T00:05:24.581Z","method":"GET","path":"/favicon.ico"}
+{"timestamp":"2025-05-13T00:10:00.442Z","method":"GET","path":"/styles.css"}
+{"timestamp":"2025-05-13T00:10:00.806Z","method":"GET","path":"/favicon.ico"}
+{"timestamp":"2025-05-13T00:19:34.365Z","method":"POST","path":"/api/create-payment-intent","body":{"amount":10,"currency":"usd","description":"Payment for Chris"}}
+{"timestamp":"2025-05-13T00:23:44.974Z","method":"POST","path":"/api/create-payment-intent","body":{"amount":10,"currency":"usd","description":"Payment for Chris"}}
+{"timestamp":"2025-05-13T00:23:54.793Z","method":"GET","path":"/styles.css"}
+{"timestamp":"2025-05-13T00:23:54.868Z","method":"GET","path":"/api/config"}
+{"timestamp":"2025-05-13T00:23:54.881Z","method":"GET","path":"/favicon.ico"}
+{"timestamp":"2025-05-13T00:25:33.358Z","method":"GET","path":"/styles.css"}
+{"timestamp":"2025-05-13T00:25:33.586Z","method":"GET","path":"/api/config"}
+{"timestamp":"2025-05-13T00:25:33.592Z","method":"GET","path":"/favicon.ico"}
+{"timestamp":"2025-05-13T00:25:36.539Z","method":"GET","path":"/styles.css"}
+{"timestamp":"2025-05-13T00:26:29.711Z","method":"GET","path":"/styles.css"}
+{"timestamp":"2025-05-13T00:26:29.781Z","method":"GET","path":"/api/config"}
+{"timestamp":"2025-05-13T00:26:29.786Z","method":"GET","path":"/favicon.ico"}
+{"timestamp":"2025-05-13T00:26:55.345Z","method":"POST","path":"/api/create-payment-intent","body":{"amount":10,"currency":"usd","description":"Payment for Chris"}}
