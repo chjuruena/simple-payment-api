@@ -2,22 +2,6 @@
 
 A simple payment API built with Node.js, Express 5, and Stripe. This API provides endpoints for processing payments using Stripe's API.
 
-## Table of Contents
-
-- [Description](#description)
-- [Technologies Used](#technologies-used)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Running the API](#running-the-api)
-- [API Endpoints](#api-endpoints)
-- [Scripts](#scripts)
-- [Dependencies](#dependencies)
-- [Dev Dependencies](#dev-dependencies)
-- [Keywords](#keywords)
-- [Author](#author)
-- [License](#license)
-
 ## Description
 
 This API serves as a backend solution for integrating Stripe payments into your application. It leverages the Express 5 framework for handling routing and middleware, and the official Stripe Node.js library for interacting with the Stripe API.
