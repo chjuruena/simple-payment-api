@@ -1,10 +1,12 @@
-# Payment API
+# Stripe Payment Integration
 
-A simple payment API built with Node.js, Express 5, and Stripe. This API provides endpoints for processing payments using Stripe's API.
+![Node.js](https://img.shields.io/badge/Node.js-18+-green)
+![Express](https://img.shields.io/badge/Express-5-blue)
+![Stripe](https://img.shields.io/badge/Stripe-API-purple)
 
 ## Description
 
-This API serves as a backend solution for integrating Stripe payments into your application. It leverages the Express 5 framework for handling routing and middleware, and the official Stripe Node.js library for interacting with the Stripe API.
+A simple payment solution with Node.js/Express 5 backend and Stripe Elements frontend.
 
 ## Technologies Used
 
@@ -68,3 +70,39 @@ To run the API, open your terminal in the project directory and execute the desi
 npm start
 # or
 npm run dev
+```
+
+# Testing the Payment Form
+
+## Accessing the Payment Form
+
+The payment form can be accessed at:
+
+[http://localhost:3000](http://localhost:3000)
+
+## Test Card Details
+
+Use the following test card details for successful and declined payment simulations:
+
+* **Card Number:** See table below
+* **Expiry Date:** Any future date
+* **CVC:** Any 3 digits
+
+## Test Card Numbers
+
+| Card Number           | Type       | Description                 |
+| --------------------- | ---------- | --------------------------- |
+| 4242 4242 4242 4242 | Visa       | Successful payment          |
+| 4000 0000 0000 0002 | Generic    | Declined payment            |
+| 5555 5555 5555 4444 | Mastercard | Successful payment          |
+
+
+## API Endpoints
+
+| Endpoint                  | Method | Description                     |
+| ------------------------- | ------ | ------------------------------- |
+| /api/create-payment-intent | POST   | Creates a PaymentIntent         |
+| /api/confirm-payment      | POST   | Confirms a payment               |
+| /api/config               | GET    | Returns the publishable key     |
+
+
